@@ -28,11 +28,12 @@ class HomeScreen extends StatelessWidget {
     backgroundColor: Colors.white,
     elevation: 2,
     shadowColor: Colors.grey.withOpacity(0.3),
+    
     title: Row(
       children: [
         Image.asset(
           'assets/images/logo.png', // ← your logo path
-          height: 80,               // adjust size as needed
+          height: 60,               // adjust size as needed
         ),
         const SizedBox(width: 1),
         const Text(
